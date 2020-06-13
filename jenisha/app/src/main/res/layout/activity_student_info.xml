@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main2"
+    tools:context=".StudentInfo">
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="229dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:hint="Search Here"
+        android:textColor="#999999"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/Username"-->
+<!--        android:layout_width="210dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_below="@+id/search_bar"-->
+<!--        android:layout_marginTop="204dp"-->
+<!--        android:fontFamily="@font/aclonica"-->
+<!--        android:text="User Name"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.447"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <TextView-->
+<!--        android:id="@+id/Group"-->
+<!--        android:layout_width="210dp"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:layout_below="@+id/ID"-->
+<!--        android:layout_marginTop="284dp"-->
+<!--        android:fontFamily="@font/aclonica"-->
+<!--        android:text="Class Group"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.447"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Full Name" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"
+        android:fontFamily="@font/aclonica"
+        android:text="Student ID"
+         />
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/id"
+        android:fontFamily="@font/aclonica"
+        android:text="Group"
+         />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="267dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/group"
+        android:background="@drawable/main2"
+        android:fontFamily="@font/aclonica"
+        android:text="Search Here"
+         />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:background="#FFF3E0"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/log"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:text=" ID SCANNER USING FACE RECOGNOTION"
+       android:textSize="20dp"
+       android:background="#000"
+       android:textColor="#fff"
+       android:layout_marginTop="20dp"
+       android:fontFamily="@font/aclonica"
+       android:layout_centerHorizontal="true"
+        android:id="@+id/topic"
+       android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/linear_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+
+         />
+
+    <Button
+        android:id="@+id/selectImage"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#009688"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:layout_below="@+id/image"
+        android:layout_height="wrap_content"
+        android:text="Select Image !"
+         />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_below="@id/topic"
+    android:id="@+id/linear_layout"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/selectInfo"
+        android:layout_width="wrap_content"
+
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:background="#4caf50"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:text="Search here !"
+        />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:background="#ff5722"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+
+        android:text="Logging Out"
+        />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectImage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+         />
+</RelativeLayout>
+<!--</RelativeLayout>-->

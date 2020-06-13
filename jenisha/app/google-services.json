@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "112611447577",
+    "firebase_url": "https://fyp-project-31702.firebaseio.com",
+    "project_id": "fyp-project-31702",
+    "storage_bucket": "fyp-project-31702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112611447577:android:cbd3c5e049601b344b6b88",
+        "android_client_info": {
+          "package_name": "com.developndesign.firebaseautomlvisionedge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112611447577-8d79bg8alunv4u5h850o62gqjlj49rb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7lX8D3AN8XnTeCeuHUZV7xlWMNe0HhI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112611447577-8d79bg8alunv4u5h850o62gqjlj49rb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

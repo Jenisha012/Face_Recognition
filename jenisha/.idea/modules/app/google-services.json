@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1010362510695",
+    "firebase_url": "https://face-recognition-21705.firebaseio.com",
+    "project_id": "face-recognition-21705",
+    "storage_bucket": "face-recognition-21705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010362510695:android:1271b2450cfab5751513c2",
+        "android_client_info": {
+          "package_name": "com.developndesign.firebaseautomlvisionedge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010362510695-l63e0eej33pgp4asniue5uem5inlhs1j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developndesign.firebaseautomlvisionedge",
+            "certificate_hash": "cd5586210e3fd8f9a3bb83f412fa5344d942a558"
+          }
+        },
+        {
+          "client_id": "1010362510695-gslf1vojcib9b9jtc89nhcapk9pcfjeo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDJMFvr80ke7-p8L4HM2UzvmueQ7QW44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010362510695-gslf1vojcib9b9jtc89nhcapk9pcfjeo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010362510695:android:fff4c1a0a3b43ef11513c2",
+        "android_client_info": {
+          "package_name": "com.example.facerecognitionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010362510695-gslf1vojcib9b9jtc89nhcapk9pcfjeo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDJMFvr80ke7-p8L4HM2UzvmueQ7QW44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010362510695-gslf1vojcib9b9jtc89nhcapk9pcfjeo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
